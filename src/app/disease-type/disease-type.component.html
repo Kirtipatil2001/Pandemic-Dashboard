@@ -1,0 +1,23 @@
+<div class="nbutton"  [ngStyle]='buttonAlign'>
+  <button class="btn btn-outline-warning" routerLink="/info-component" routerLinkActive="Active"  [ngStyle]='buttonSpace' style="color: yellow;"><h4>Covid-19</h4></button>
+  <button class="btn btn-outline-info" routerLink="/ebola-component" routerLinkActive="Active" [ngStyle]='buttonSpace'><h4>Ebola</h4></button>
+  <button class="btn btn-outline-danger" routerLink="/spanish-component" routerLinkActive="Active" [ngStyle]='buttonSpace' ><h4>Spanish-Flu</h4></button>
+  <button class="btn btn-outline-success"routerLink="/plague-component" routerLinkActive="Active" ><h4>Plague</h4></button>
+</div>
+<div class="wrapper" (click)="review()">
+
+  <div class="item" *ngFor="let sent of reviews">
+    <div class="card text-white">
+      <div class="card-body">
+        <h5 class="card-title"><b>{{sent.DiseaseType}}</b></h5>
+        <p class="card-text">{{sent.Review}}</p>
+      </div>
+    </div> 
+  </div>
+  
+</div>
+<div id="circularMenu" class="circular-menu">
+  <a class="floating-btn" (click)="ngOnInit()">
+    <i class="fa fa-refresh"></i>
+  </a>
+</div>

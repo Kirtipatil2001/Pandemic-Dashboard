@@ -1,0 +1,82 @@
+<div class="d-flex justify-content-start back-nav ml-3">
+  <a class=" btn btn-light btn-circle btn-sm"  [routerLink]="['/disease-component']" routerLinkActive="router-link-active">
+    <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+   </a>
+</div>
+<h3 class="title text-center text-white">Plague (Black death)</h3>
+
+<div class="container text-center" >
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm center" id="top" [ngStyle]="buttonSpace">
+       <h6 id="num" >Confirm Cases</h6> 
+       <h3>{{confirmedCases }}</h3>
+       
+      </div>
+      <div class="col-sm" style=" border-color:red; border-width: 2px; " id="top" [ngStyle]="buttonSpace">
+        <h6 id="num">Death Cases</h6> 
+        <h3>{{deathCases }} </h3>
+      </div>
+    </div>
+  </div>
+  
+  <div class="jumbotron" >
+    <h5>World</h5>
+    <p>Plague epidemics have occurred in Africa, Asia, South America since the 1990s, most cases have occurred in Africa. The three most pandemic countries are the Democratic Republic of Congo, Madagascar, and Peru.
+      Plague is a disease that affects humans and other mammals. It is caused by the bacterium yersinia pestis. Humans usually get plague or by handling an animal infected with the plague.
+Historically, the plague was responsible for widespread pandemic with high mortality. 
+</p>
+<h5 ><b>It was known as the "Black Death" during the fourteenth century, causing more than 50 million deaths in Europe.</b></h5>
+    <p>
+       <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" id="seemore" aria-controls="collapseExample">
+        <i class="fa fa-angle-down" aria-hidden="true">See more</i>
+       </a>
+     </p>
+    
+     <div class="collapse" id="collapseExample">
+       <div class="card card-body text-center">
+        <div class="card" id="intialDisease">
+          <div class="card-title">
+            <h5>How Plague has Started?</h5>
+          </div>
+          <p>
+          There have been three great world pandemics of plague recorded, in 541, 1347, and 1894 CE, each time causing devastating mortality of people and animals across nations and continents. On more than one occasion plague irrevocably changed the social and economic fabric of society.
+           Black Death, a pandemic that ravaged Europe between 1347 and 1351, taking a proportionately greater toll of life than any other known epidemic or war up to that time.
+          </p>
+          </div>
+         <div class="card" id="typeDisease">
+         <div class="card-title">
+           <h5>Types of Plague</h5>
+         </div>
+          <b>1.Bubonic Plague</b> The most common form of plague is bubonic plague. It's contracted when an infected rodent or flea bites you.
+          <b>2.Septicemic Plague</b> When the bacteria enter the bloodstream directly & multiply there, it's known as Septicemic Plague.
+          <b>3.Pneumonic Plague</b> When the bacteria spread to or first infect the lungs, it's known as Pneumonic Plague.the most lethal form of the disease.
+          
+         </div>
+         <div class="card" id="effectDisease">
+          <div class="card-title">
+            <h5>Effects of Plague</h5>
+          </div>
+          <p>Often simply referred to as ''The Plague'', the Black death was one of the most devastating pandemics in human history, peaking in Europe between 1348 & 1350 with an estimated one -third of the continent's population ultimately succumbing to the disease.
+          </p>
+           <p>The Plague killed indiscriminately young and old, rich and poor, but especially in the cities and among groups who had close contact with the sick.Entire monasteries filled with friars were wiped out and Europe lost most of its doctors.
+              In the countryside,whole villages were abandoned . The disease reached even the isolated outposts of Greenland and Iceland , leaving only wild cattle roaming free without any farmers, according to chroniclers who visited years later.</p>
+          <p>Social effects of the plague were felt immediately after the worst outbreaks petered out. Those who survived benefited from an extreme labor shortage, so serfs once tied to the land now had a choice whom to work for.</p>
+          </div>
+       </div>
+     </div> 
+     <!-- Dashboard -->
+     
+</div> 
+
+<div class="bottom d-flex justify-content-center" >
+  <a  class="btn btn-outline-light mb-3"  [routerLink]="['/plague-dash']" routerLinkActive="router-link-active"  >
+    <i class="fa fa-angle-right"></i>
+    Graphs
+  </a>  
+</div> 
+<div id="circularMenu" class="circular-menu">
+  <a class="floating-btn" (click)="ngOnInit()">
+    <i class="fa fa-refresh"></i>
+  </a>
+</div>

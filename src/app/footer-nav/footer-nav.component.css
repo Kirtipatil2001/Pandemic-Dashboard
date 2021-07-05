@@ -1,0 +1,59 @@
+
+h4{
+	margin-top: -30px;
+	font-weight: 30px;
+}
+ .hover {
+	height: 100%;
+	width: 0;
+	position:fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #2a26ff;
+	background: linear-gradient(85deg,#00143a,#000000);
+	box-shadow: .5px 1px rgba(47, 0, 255, 0.486);
+	overflow-x: hidden;
+	transition: 0.5s;
+  }
+  
+  .content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+  }
+  
+  .content a {
+	padding: 20px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	border: #f1f1f1;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .content a:hover, .content a:focus {
+	color: #f1f1f1;
+  }
+  
+  .hover .btn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 20px;
+  }
+  .m-3{
+	  color: rgb(255, 255, 255);
+	  font-size: 25px;
+  }
+  @media screen and (max-height: 450px) {
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+	font-size: 40px;
+	top: 15px;
+	right: 35px;
+	}
+  }

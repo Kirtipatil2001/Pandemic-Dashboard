@@ -1,0 +1,90 @@
+<div class="d-flex justify-content-start back-nav ml-3">
+  <a class=" btn btn-light btn-circle btn-sm"  [routerLink]="['/disease-component']" routerLinkActive="router-link-active">
+    <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+   </a>
+</div>
+<h3 class="title text-center text-white">Ebola</h3>
+<div class="container text-center" >
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm center" id="top" [ngStyle]="buttonSpace">
+       <h6 id="num" >Confirm Cases</h6> 
+       <h3>{{confirmedCases | number}}</h3>
+      </div>
+      <div class="col-sm" style=" border-color:red; border-width: 2px; " id="top" [ngStyle]="buttonSpace">
+        <h6 id="num">Death Cases</h6> 
+        <h3>{{deathCases | number}}</h3>
+      </div>
+    </div>
+  </div>
+  
+  <div class="jumbotron" >
+    <h5>World</h5>
+    <p>Ebola was first discovered in 1976 near the Nazra (a town in South Sudan) Democratic Republic of Congo. Ebola epidemics have occurred in Guinea,Liberia,SerriaLeone in 2014.Most cases have occurred in Guinea.
+      Ebola is the disease that affects humans or other animals. The Ebola disease spreads only by direct contact with the blood or the other body fluids of a person who has developed symptoms of the disease through saliva,mucus,vomit,feces,sweat,tears,etc,.
+  </p>
+  <b>It was known as Ebola Virus disease(EVD) or Ebola hemorrhagic Fever (EHF).</b>
+    <p>
+       <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" id="seemore" aria-controls="collapseExample">
+        <i class="fa fa-angle-down" aria-hidden="true">See more</i>
+       </a>
+     </p>
+    
+     <div class="collapse" id="collapseExample">
+       <div class="card card-body text-center">
+         <div class="card" id="intialDisease">
+           <div class="card-title">
+           <h5>How Ebola has Started?</h5>
+           </div>
+           <p>
+            Since its discovery in 1976, the majority of cases and outbreaks of Ebola Virus Diseases have occurred in Africa.
+             The 2014-2016 Ebola outbreak in /west Africa began in a rural setting of southeastern Guinea, spread to urban areas and across borders within weeks, and became a global epidemic within months.
+           </p>
+         </div>
+         <div class="card" id="typeDisease">
+          <div class="card-title">
+          <h5>Types of Ebola</h5>
+          </div>
+         
+           <b>1. Zaire ebolavirus</b> During the 1995  Kikwit ,Zaire (non DRC) outbreak, the international public health community played a strong role, as it was now widely agreed that containment and control of Ebola virus were paramount in ending outbreaks
+        
+          <b>2. Sudan ebolavirus</b> Sudan ebolavirus first outbreak in Southern Sudan in June 1976 and 1979. The average fatality rate for Sudan virus was 54% in 1976,68% in 1979, 53% in 2000 and 2001 and 41% in 2004.
+      
+          <b>3. Bundibugyo ebolavirus</b> The outbreak was declared over on february 20,2008.
+         
+          <b>4. Tai Forest ebolavirus</b> It was first found in two dead chimpanzees in Tai Forest in 1994. It was similar to Zaire and Sudan Ebolavirus.After necropsies , a scientist was infected with symptoms like Dengue Fever.
+        
+          <b>5. Reston ebolavirus</b> In 1989, Reston ebolavirus was discovered from the Philippines into the U.S. Later ,scientists confirmed that the virus spread throughout the monkey population through droplets in the air in the facility.
+     
+        </div>
+        <div class="card" id="effectDisease">
+          <div class="card-title">
+          <h5>Effect of Ebola</h5>
+          </div>
+          <p>
+            Aside from the devastating health effects, the Ebola epidemic also had a pronounced socio-economic impact in Guinea, Liberia,and Sierra Leone. 
+            According to 2014 projections from the World Bank, an estimated $2.2 billion was lost in 2015 in the gross domestic product of the three countries.
+          </p>
+          <p>
+            The long-term impact of these disruptions to deep-seated human traditions is not yet known. Psychologists are concerned that suspicions that other people may harbour the deadly virus will take some time to melt away.
+          </p>
+        </div>
+  
+       </div>
+     </div> 
+     <!-- Dashboard -->
+     
+</div> 
+
+<div class="bottom d-flex justify-content-center" >
+      
+  <a  class="btn btn-outline-light mb-2"  [routerLink]="['/ebolaComponent']" routerLinkActive="router-link-active"  >
+    <i class="fa fa-angle-right"></i>
+    Graphs
+  </a>  
+</div> 
+<div id="circularMenu" class="circular-menu">
+  <a class="floating-btn" (click)="ngOnInit()">
+    <i class="fa fa-refresh"></i>
+  </a>
+</div>

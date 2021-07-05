@@ -1,0 +1,827 @@
+﻿
+{
+		"Country": [
+			{
+				"Guinea": [
+					{
+						"Date": "22March2014",
+						"TotalCases": "49",
+						"TotalDeaths": "29"
+					},
+					{
+						"Date": "31March2014",
+						"TotalCases": "122",
+						"TotalDeaths": "80"
+					},
+					{
+						"Date": "14April2014",
+						"TotalCases": "168",
+						"TotalDeaths": "108"
+					},
+					{
+						"Date": "1May2014",
+						"TotalCases": "226",
+						"TotalDeaths": "149"
+					},
+					{
+						"Date": "12May2014",
+						"TotalCases": "248",
+						"TotalDeaths": "171"
+					},
+					{
+						"Date": "27May2014",
+						"TotalCases": "281",
+						"TotalDeaths": "186"
+					},
+					{
+						"Date": "17June2014",
+						"TotalCases": "398",
+						"TotalDeaths": "264"
+					},
+					{
+						"Date": "2July2014",
+						"TotalCases": "412",
+						"TotalDeaths": "305"
+					},
+					{
+						"Date": "14July2014",
+						"TotalCases": "411",
+						"TotalDeaths": "310"
+					},
+					{
+						"Date": "23July2014",
+						"TotalCases": "427",
+						"TotalDeaths": "319"
+					},
+					{
+						"Date": "30July2014",
+						"TotalCases": "472",
+						"TotalDeaths": "346"
+					},
+					{
+						"Date": "9August2014",
+						"TotalCases": "506",
+						"TotalDeaths": "373"
+					},
+					{
+						"Date": "16August2014",
+						"TotalCases": "543",
+						"TotalDeaths": "394"
+					},
+					{
+						"Date": "31August2014",
+						"TotalCases": "771",
+						"TotalDeaths": "494"
+					},
+					{
+						"Date": "14Sept2014",
+						"TotalCases": "942",
+						"TotalDeaths": "601"
+					},
+					{
+						"Date": "28sept2014",
+						"TotalCases": "1157",
+						"TotalDeaths": "710"
+					},
+					{
+						"Date": "12October2014",
+						"TotalCases": "1472",
+						"TotalDeaths": "843"
+					},
+					{
+						"Date": "19October2014",
+						"TotalCases": "1540",
+						"TotalDeaths": "926"
+					},
+					{
+						"Date": "2November2014",
+						"TotalCases": "1731",
+						"TotalDeaths": "1041"
+					},
+					{
+						"Date": "18November2014",
+						"TotalCases": "2047",
+						"TotalDeaths": "1214"
+					},
+					{
+						"Date": "30November2014",
+						"TotalCases": "2164",
+						"TotalDeaths": "1325"
+					},
+					{
+						"Date": "14December2014",
+						"TotalCases": "2415",
+						"TotalDeaths": "1525"
+					},
+					{
+						"Date": "28December2014",
+						"TotalCases": "2707",
+						"TotalDeaths": "1709"
+					},
+					{
+						"Date": "11Janury2014",
+						"TotalCases": "2806",
+						"TotalDeaths": "1814"
+					},
+					{
+						"Date": "25January2015",
+						"TotalCases": "2917",
+						"TotalDeaths": "1910"
+					},
+					{
+						"Date": "8Feb2015",
+						"TotalCases": "3044",
+						"TotalDeaths": "1995"
+					},
+					{
+						"Date": "22Feb2015",
+						"TotalCases": "3155",
+						"TotalDeaths": "2091"
+					},
+					{
+						"Date": "8March 2015",
+						"TotalCases": "3285",
+						"TotalDeaths": "2170"
+					},
+					{
+						"Date": "22March 2015",
+						"TotalCases": "3429",
+						"TotalDeaths": "2263"
+					},
+					{
+						"Date": "5April2015",
+						"TotalCases": "3515",
+						"TotalDeaths": "2333"
+					},
+					{
+						"Date": "19April2015",
+						"TotalCases": "3565",
+						"TotalDeaths": "2358"
+					},
+					{
+						"Date": "3May2015",
+						"TotalCases": "3589",
+						"TotalDeaths": "2386"
+					},
+					{
+						"Date": "17May2015",
+						"TotalCases": "3635",
+						"TotalDeaths": "2407"
+					},
+					{
+						"Date": "31May2015",
+						"TotalCases": "3652",
+						"TotalDeaths": "2429"
+					},
+					{
+						"Date": "14Jun2015",
+						"TotalCases": "3674",
+						"TotalDeaths": "2444"
+					},
+					{
+						"Date": "21June2015",
+						"TotalCases": "3718",
+						"TotalDeaths": "2473"
+					},
+					{
+						"Date": "28June2015",
+						"TotalCases": "3721",
+						"TotalDeaths": "2482"
+					},
+					{
+						"Date": "5July2015",
+						"TotalCases": "3748",
+						"TotalDeaths": "2499"
+					},
+					{
+						"Date": "12July2015",
+						"TotalCases": "3760",
+						"TotalDeaths": "2506"
+					},
+					{
+						"Date": "26July2015",
+						"TotalCases": "3786",
+						"TotalDeaths": "2520"
+					},
+					{
+						"Date": "9August2015",
+						"TotalCases": "3787",
+						"TotalDeaths": "2524"
+					},
+					{
+						"Date": "16August2015",
+						"TotalCases": "3786",
+						"TotalDeaths": "2524"
+					},
+					{
+						"Date": "20August2015",
+						"TotalCases": "3792",
+						"TotalDeaths": "3529"
+					},
+					{
+						"Date": "6Sept2015",
+						"TotalCases": "3792",
+						"TotalDeaths": "2530"
+					},
+					{
+						"Date": "13Sept2015",
+						"TotalCases": "3792",
+						"TotalDeaths": "2530"
+					},
+					{
+						"Date": "20Sept2015",
+						"TotalCases": "3800",
+						"TotalDeaths": "2532"
+					},
+					{
+						"Date": "27Sept2015",
+						"TotalCases": "3805",
+						"TotalDeaths": "2533"
+					},
+					{
+						"Date": "11Oct2015",
+						"TotalCases": "3800",
+						"TotalDeaths": "2534"
+					},
+					{
+						"Date": "18Oct2015",
+						"TotalCases": "3803",
+						"TotalDeaths": "2535"
+					},
+					{
+						"Date": "25OCt2015",
+						"TotalCases": "3806",
+						"TotalDeaths": "2535"
+					},
+					{
+						"Date": "4Nov2015",
+						"TotalCases": "3810",
+						"TotalDeaths": "2536"
+					},
+					{
+						"Date": "11Nov2015",
+						"TotalCases": "3805",
+						"TotalDeaths": "2536"
+					},
+					{
+						"Date": "18Nov2015",
+						"TotalCases": "3804",
+						"TotalDeaths": "2536"
+					},
+					{
+						"Date": "25Nov2015",
+						"TotalCases": "3804",
+						"TotalDeaths": "2536"
+					}
+				]
+			},
+			{
+				"Liberia": [
+					{
+						"Date": "22March2014",
+						"TotalCases": "-",
+						"TotalDeaths": "-"
+					},
+					{
+						"Date": "31March2014",
+						"TotalCases": "8",
+						"TotalDeaths": "2"
+					},
+					{
+						"Date": "14April2014",
+						"TotalCases": "8",
+						"TotalDeaths": "2"
+					},
+					{
+						"Date": "1May2014",
+						"TotalCases": "13",
+						"TotalDeaths": "11"
+					},
+					{
+						"Date": "12May2014",
+						"TotalCases": "12",
+						"TotalDeaths": "11"
+					},
+					{
+						"Date": "27May2014",
+						"TotalCases": "12",
+						"TotalDeaths": "11"
+					},
+					{
+						"Date": "17June2014",
+						"TotalCases": "33",
+						"TotalDeaths": "24"
+					},
+					{
+						"Date": "2July2014",
+						"TotalCases": "115",
+						"TotalDeaths": "75"
+					},
+					{
+						"Date": "14July2014",
+						"TotalCases": "174",
+						"TotalDeaths": "106"
+					},
+					{
+						"Date": "23July2014",
+						"TotalCases": "249",
+						"TotalDeaths": "129"
+					},
+					{
+						"Date": "30July2014",
+						"TotalCases": "391",
+						"TotalDeaths": "227"
+					},
+					{
+						"Date": "9August2014",
+						"TotalCases": "599",
+						"TotalDeaths": "323"
+					},
+					{
+						"Date": "16August2014",
+						"TotalCases": "834",
+						"TotalDeaths": "466"
+					},
+					{
+						"Date": "31August2014",
+						"TotalCases": "1698",
+						"TotalDeaths": "871"
+					},
+					{
+						"Date": "14Sept2014",
+						"TotalCases": "2720",
+						"TotalDeaths": "1461"
+					},
+					{
+						"Date": "28sept2014",
+						"TotalCases": "3696",
+						"TotalDeaths": "1998"
+					},
+					{
+						"Date": "12October2014",
+						"TotalCases": "4249",
+						"TotalDeaths": "2458"
+					},
+					{
+						"Date": "19October2014",
+						"TotalCases": "4665",
+						"TotalDeaths": "2705"
+					},
+					{
+						"Date": "2November2014",
+						"TotalCases": "6525",
+						"TotalDeaths": "2697"
+					},
+					{
+						"Date": "18November2014",
+						"TotalCases": "7082",
+						"TotalDeaths": "2963"
+					},
+					{
+						"Date": "30November2014",
+						"TotalCases": "7653",
+						"TotalDeaths": "3157"
+					},
+					{
+						"Date": "14December2014",
+						"TotalCases": "7819",
+						"TotalDeaths": "3346"
+					},
+					{
+						"Date": "28December2014",
+						"TotalCases": "8018",
+						"TotalDeaths": "3423"
+					},
+					{
+						"Date": "11Janury2014",
+						"TotalCases": "8331",
+						"TotalDeaths": "3538"
+					},
+					{
+						"Date": "25January2015",
+						"TotalCases": "8622",
+						"TotalDeaths": "3686"
+					},
+					{
+						"Date": "8Feb2015",
+						"TotalCases": ">-8881",
+						"TotalDeaths": ">-3826"
+					},
+					{
+						"Date": "22Feb2015",
+						"TotalCases": "9238",
+						"TotalDeaths": "4037"
+					},
+					{
+						"Date": "8March 2015",
+						"TotalCases": ">-9343",
+						"TotalDeaths": ">-4162"
+					},
+					{
+						"Date": "22March 2015",
+						"TotalCases": "9602",
+						"TotalDeaths": "4301"
+					},
+					{
+						"Date": "5April2015",
+						"TotalCases": "9862",
+						"TotalDeaths": "4408"
+					},
+					{
+						"Date": "19April2015",
+						"TotalCases": "10212",
+						"TotalDeaths": "4573"
+					},
+					{
+						"Date": "3May2015",
+						"TotalCases": "10564",
+						"TotalDeaths": "4716"
+					},
+					{
+						"Date": "17May2015",
+						"TotalCases": "10666",
+						"TotalDeaths": "4806"
+					},
+					{
+						"Date": "31May2015",
+						"TotalCases": "10666",
+						"TotalDeaths": "4806"
+					},
+					{
+						"Date": "14Jun2015",
+						"TotalCases": "10666",
+						"TotalDeaths": "4806"
+					},
+					{
+						"Date": "21June2015",
+						"TotalCases": "10666",
+						"TotalDeaths": "4806"
+					},
+					{
+						"Date": "28June2015",
+						"TotalCases": "10666",
+						"TotalDeaths": "4806"
+					},
+					{
+						"Date": "5July2015",
+						"TotalCases": "10670",
+						"TotalDeaths": "4807"
+					},
+					{
+						"Date": "12July2015",
+						"TotalCases": "10673",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "26July2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "9August2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "16August2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "20August2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "6Sept2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "13Sept2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "20Sept2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "27Sept2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "11Oct2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "18Oct2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "25OCt2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "4Nov2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "11Nov2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "18Nov2015",
+						"TotalCases": "10672",
+						"TotalDeaths": "4808"
+					},
+					{
+						"Date": "25Nov2015",
+						"TotalCases": "10675",
+						"TotalDeaths": "4808"
+					}
+				]
+			},
+			{
+				"SerriaLeone": [
+					{
+						"Date": "22March2014",
+						"TotalCases": "-",
+						"TotalDeaths": "-"
+					},
+					{
+						"Date": "31March2014",
+						"TotalCases": "-",
+						"TotalDeaths": "-"
+					},
+					{
+						"Date": "14April2014",
+						"TotalCases": "-",
+						"TotalDeaths": "-"
+					},
+					{
+						"Date": "1May2014",
+						"TotalCases": "-",
+						"TotalDeaths": "-"
+					},
+					{
+						"Date": "12May2014",
+						"TotalCases": "-",
+						"TotalDeaths": "-"
+					},
+					{
+						"Date": "27May2014",
+						"TotalCases": "16",
+						"TotalDeaths": "5"
+					},
+					{
+						"Date": "17June2014",
+						"TotalCases": "97",
+						"TotalDeaths": "49"
+					},
+					{
+						"Date": "2July2014",
+						"TotalCases": "252",
+						"TotalDeaths": "101"
+					},
+					{
+						"Date": "14July2014",
+						"TotalCases": "397",
+						"TotalDeaths": "197"
+					},
+					{
+						"Date": "23July2014",
+						"TotalCases": "525",
+						"TotalDeaths": "224"
+					},
+					{
+						"Date": "30July2014",
+						"TotalCases": "574",
+						"TotalDeaths": "252"
+					},
+					{
+						"Date": "9August2014",
+						"TotalCases": "730",
+						"TotalDeaths": "315"
+					},
+					{
+						"Date": "16August2014",
+						"TotalCases": "848",
+						"TotalDeaths": "365"
+					},
+					{
+						"Date": "31August2014",
+						"TotalCases": "1216",
+						"TotalDeaths": "436"
+					},
+					{
+						"Date": "14Sept2014",
+						"TotalCases": "1655",
+						"TotalDeaths": "516"
+					},
+					{
+						"Date": "28sept2014",
+						"TotalCases": "2317",
+						"TotalDeaths": "570"
+					},
+					{
+						"Date": "12October2014",
+						"TotalCases": "3252",
+						"TotalDeaths": "1183"
+					},
+					{
+						"Date": "19October2014",
+						"TotalCases": "3706",
+						"TotalDeaths": "1259"
+					},
+					{
+						"Date": "2November2014",
+						"TotalCases": "4759",
+						"TotalDeaths": "1450"
+					},
+					{
+						"Date": "18November2014",
+						"TotalCases": "6190",
+						"TotalDeaths": "1598"
+					},
+					{
+						"Date": "30November2014",
+						"TotalCases": "7312",
+						"TotalDeaths": "1915"
+					},
+					{
+						"Date": "14December2014",
+						"TotalCases": "8356",
+						"TotalDeaths": "2417"
+					},
+					{
+						"Date": "28December2014",
+						"TotalCases": "9446",
+						"TotalDeaths": "2758"
+					},
+					{
+						"Date": "11Janury2014",
+						"TotalCases": "10124",
+						"TotalDeaths": "3062"
+					},
+					{
+						"Date": "25January2015",
+						"TotalCases": "10518",
+						"TotalDeaths": "3199"
+					},
+					{
+						"Date": "8Feb2015",
+						"TotalCases": "10934",
+						"TotalDeaths": "3341"
+					},
+					{
+						"Date": "22Feb2015",
+						"TotalCases": "11301",
+						"TotalDeaths": "3461"
+					},
+					{
+						"Date": "8March 2015",
+						"TotalCases": "11619",
+						"TotalDeaths": "3629"
+					},
+					{
+						"Date": "22March 2015",
+						"TotalCases": "11841",
+						"TotalDeaths": "3747"
+					},
+					{
+						"Date": "5April2015",
+						"TotalCases": "12138",
+						"TotalDeaths": "3831"
+					},
+					{
+						"Date": "19April2015",
+						"TotalCases": "12267",
+						"TotalDeaths": "3877"
+					},
+					{
+						"Date": "3May2015",
+						"TotalCases": "12440",
+						"TotalDeaths": "3903"
+					},
+					{
+						"Date": "17May2015",
+						"TotalCases": "12632",
+						"TotalDeaths": "3907"
+					},
+					{
+						"Date": "31May2015",
+						"TotalCases": "12827",
+						"TotalDeaths": "3912"
+					},
+					{
+						"Date": "14Jun2015",
+						"TotalCases": "12965",
+						"TotalDeaths": "3919"
+					},
+					{
+						"Date": "21June2015",
+						"TotalCases": "13059",
+						"TotalDeaths": "3924"
+					},
+					{
+						"Date": "28June2015",
+						"TotalCases": "13119",
+						"TotalDeaths": "3932"
+					},
+					{
+						"Date": "5July2015",
+						"TotalCases": "13155",
+						"TotalDeaths": "3940"
+					},
+					{
+						"Date": "12July2015",
+						"TotalCases": "13209",
+						"TotalDeaths": "3947"
+					},
+					{
+						"Date": "26July2015",
+						"TotalCases": "13290",
+						"TotalDeaths": "3951"
+					},
+					{
+						"Date": "9August2015",
+						"TotalCases": "13470",
+						"TotalDeaths": "3951"
+					},
+					{
+						"Date": "16August2015",
+						"TotalCases": "13494",
+						"TotalDeaths": "3952"
+					},
+					{
+						"Date": "20August2015",
+						"TotalCases": "13609",
+						"TotalDeaths": "3953"
+					},
+					{
+						"Date": "6Sept2015",
+						"TotalCases": "13683",
+						"TotalDeaths": "3953"
+					},
+					{
+						"Date": "13Sept2015",
+						"TotalCases": "13756",
+						"TotalDeaths": "3953"
+					},
+					{
+						"Date": "20Sept2015",
+						"TotalCases": "13823",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "27Sept2015",
+						"TotalCases": "13911",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "11Oct2015",
+						"TotalCases": "13982",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "18Oct2015",
+						"TotalCases": "14001",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "25OCt2015",
+						"TotalCases": "14061",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "4Nov2015",
+						"TotalCases": "14089",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "11Nov2015",
+						"TotalCases": "14122",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "18Nov2015",
+						"TotalCases": "14122",
+						"TotalDeaths": "3955"
+					},
+					{
+						"Date": "25Nov2015",
+						"TotalCases": "14122",
+						"TotalDeaths": "3955"
+					}
+				]
+			}
+		]
+	}

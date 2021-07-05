@@ -1,0 +1,32 @@
+
+<div class="container text-white text-center">
+    <h4 >User Profile</h4>
+    <div class="jumbotron text-center">
+            <img [src]="image" class="rounded mx-auto d-block" alt="user image not found"
+            width="200px"
+            height="200px"
+            >
+        <!-- <h3>{{displayName.displayName}}</h3> -->
+        <h1 class="mt3">{{name}}</h1>
+        <h3  class="mt3">Email-Address: {{email}}</h3>
+        <button class=" mt-5 btn btn-outline-warning" (click)="logOut()">LogOut</button>
+    </div>
+    
+
+</div>
+
+<div id="circularMenu" class="circular-menu">
+    <a class="floating-btn" (click)="getuser()">
+      <i class="fa fa-refresh"></i>
+    </a>
+  </div>
+
+
+
+<!-- 
+<div >
+    <h3>Howdy, {{ email }}</h3>
+    <img  [src]="image">
+    <p>UID: {{name}}</p>
+    <button (click)="auth.logOutUser()">Logout</button>
+</div> -->

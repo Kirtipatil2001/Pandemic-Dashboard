@@ -1,0 +1,156 @@
+<div class="d-flex justify-content-start back-nav ml-3">
+  <a class=" btn btn-light btn-circle btn-sm"  [routerLink]="['/ebola-component']" routerLinkActive="router-link-active">
+    <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+   </a>
+</div>
+<div class="container">
+<div class="alert alert-dark  text-center mt-3" role="alert">
+  <h5> <b>World</b></h5> 
+</div>
+<div class="container">
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="countryChart"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="countryChartdeath"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="barChart" ></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="countryBardeath" ></canvas>
+      </div>
+  </div>
+  </div>
+
+</div>
+<div class="alert alert-dark  text-center mt-3" role="alert">
+  <h5><b>Guinea</b></h5> 
+</div>
+<div class="container">
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="BarChartGuinea"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="HoriChartGuinea"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="canvas" ></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="canvasStepped" ></canvas>
+      </div>
+  </div>
+  </div>
+
+</div>
+<div class="alert alert-success btn-outline-success text-center mt-3" role="alert">
+  <h5> <b>Liberia</b></h5>
+</div>
+<div class="container">
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="liberiaStepped"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="BarChartliberia"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="HoriChartLiberia" ></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="liberiaCanvas" ></canvas>
+      </div>
+  </div>
+  </div>
+
+</div>
+<div class="alert alert-primary btn-outline-primary text-center mt-3" role="alert">
+  <h5><b>Sierra-Leone</b></h5> 
+</div>
+<div class="container">
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="sierraCanvas"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="HoriChartsierra"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="BarChartSierra" ></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas class="object1" id="sierraStepped" ></canvas>
+      </div>
+  </div>
+  </div>
+
+</div>
+</div>
+<div id="circularMenu" class="circular-menu">
+  <a class="floating-btn" (click)="ngOnInit()">
+    <i class="fa fa-refresh"></i>
+  </a>
+</div>

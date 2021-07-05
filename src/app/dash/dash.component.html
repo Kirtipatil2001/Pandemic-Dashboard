@@ -1,0 +1,58 @@
+<!-- <video class="video-background"  autoplay loop  >
+  <source src="../../assets/production ID_4096307.mp4" type="video/mp4" autoplay loop />
+</video> -->
+<div class="container text-center " id="containers">
+  <div class="jumbotron " >
+   <h1 class="display-3 mt-5 text-white">Welcome to Pandemic Dashboard
+   </h1>
+   <div class="detailCard mt-5 text-center text-white">
+    <h5>The Dashboard consist of Pandemic Diseases which has affect the world in massive way.</h5>
+    <h5>Mainly disease which occured 100's of years ago and some are happened in this century also.</h5>
+    <h5>User will be able to see the diseases like <b> Covid-19, Spanish-flu, Ebola, Plague.</b></h5>
+    <h5>We are using an Open-Source API for Covid-19 which is a realtime. So, you might face a down.</h5>
+    <h5>If this scenario comes up, 'Refresh'.</h5>
+   </div>
+   <p class="text-white">Scroll Down</p>
+   <img src="../../assets/editor-1.7s-47px.gif" width="40px" height="40px"  alt="">
+  </div>
+</div>
+  
+<div class="container mt-5">
+  <div class="card" id="cont" style="width: 500px; height: 300px;">
+    <div class="cont mb-3" >
+  </div>
+  </div>
+
+  <div class="card " style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="myChart"></canvas>
+        it will load
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-3" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="canvas"></canvas>
+      </div>
+  </div>
+  </div>
+ 
+    <div class="cont mt-5 text-center" style="width: 500px; height: 300px;">
+        <h4 class="display-5 text ">
+          <b>To Pandemics Dashboard</b>
+        </h4>
+          <div class="container mt-3 d-flex justify-content-center">
+            <button class=" mt-4 btn btn-outline-light " (click)="navigate()">Get started</button>
+          </div>
+     </div>
+
+  </div>            
+ 
+  <div id="circularMenu" class="circular-menu">
+    <a class="floating-btn" (click)="refresh()">
+      <i class="fa fa-refresh"></i>
+    </a>
+  </div>

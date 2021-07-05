@@ -1,0 +1,109 @@
+<div class="d-flex justify-content-start back-nav ml-3">
+    <a class=" btn btn-light btn-circle btn-sm"  [routerLink]="['/disease-component']" routerLinkActive="router-link-active">
+      <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+     </a>
+</div>
+<h3 class="title text-center text-white">Covid-19</h3>
+
+<div class="container text-center" >
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm center" id="top" [ngStyle]="buttonSpace">
+       <h6 id="num" >Confirm Cases</h6> 
+       <h3>{{ newNc| number }}</h3>
+      </div>
+      <div class="col-sm" style=" border-color:rgb(3, 255, 3); border-width: 2px; " [ngStyle]='buttonSpace'>
+        <h6 id="num">Recovered Cases</h6> 
+        <h3>{{ newNr | number}}</h3>
+      </div>
+      <div class="col-sm" style=" border-color:red; border-width: 2px; " id="top" [ngStyle]="buttonSpace">
+        <h6 id="num">Death Cases</h6> 
+        <h3>{{ newNd | number}}</h3>
+      </div>
+    </div>
+  </div>
+  
+  <div class="jumbotron mt-3" >
+    <h4>World</h4>
+    <p>In December 2019, a pneumonia outbreak was reported in Wuhan, China. On 31 December 2019, the outbreak was traced to a novel strain of coronavirus,which was given the interim name 2019-nCoV by the World Health Organization (WHO),later renamed SARS-CoV-2 by the International Committee on Taxonomy of Viruses.
+      The virus has a 96% similarity to a bat coronavirus, so it is widely suspected to originate from bats as well. They infect a range of animals including swine, cattle, horses, camels, cats, dogs, rodents, birds and bats.
+     </p>
+    <p>
+       <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" id="seemore" aria-controls="collapseExample">
+        <i class="fa fa-angle-down" aria-hidden="true">See more</i>
+       </a>
+     </p>
+    
+     <div class="collapse" id="collapseExample">
+       <div class="card card-body text-center">
+        <div class="card" id="intialDisease">
+        <div class="card-title">
+          <h3>How Covid-19 has Started?</h3>
+        </div>
+        <p>
+          Since the coronavirus pandemic began in 2019, it has claimed the lives of more than two million people across the globe.
+          Although it is not yet known exactly where the outbreak first started, many early cases were in Wuhan, China - a city with a population of more than 11 million.  
+        </p>
+        </div>
+       <div class="card" id="typeDisease">
+       <div class="card-title">
+        <h3 >Types of Covid-19</h3>
+       </div>
+        <b>1.MERS-CoV, a beta virus that causes Middle East respiratory syndrome (MERS)</b> MERS-CoV may spread through contact with animals, particularly camels. Human-to-human transmission is also possible during close contact with people who are sick. 
+
+        <b>2.SARS-CoV, a beta virus that causes severe acute respiratory syndrome (SARS)</b> This virus causes severe acute respiratory syndrome, or SARS.
+        <b>3.SARS-CoV-2, which causes COVID-19</b> SARS-CoV-2 is the virus that causes COVID-19. It emerged from a bat-borne virus.
+
+        
+       </div>
+       <div class="card" id="effectDisease">
+        <div class="card-title">
+          <h3 >Effects of Covid-19</h3>
+        </div>
+        <p>In addition to the dangers to public health, the pandemic and the resulting lockdowns and shutdowns could have long-lasting effects on people and societies. 
+          High structural unemployment is likely to affect consumer confidence and the speed of economic recovery, as well as exacerbate inequality, mental health problems and lack of societal cohesion.
+           It is also likely to widen the wealth gap between young and old and to pose significant educational and employment challenges that risk a second lost generation.
+
+        </p>
+         <p>One of the most important fallouts for the world when dealing with a global crisis like COVID-19 is ignoring other existential global risks - in particular, any shortfall in activity to address sustainability risks, especially climate change adaptation and mitigation. 
+           As countries emerge from the immediate health crisis and reboot their economies, changes in our working practices, attitudes towards travelling, commuting and consumption might make it easier to find business opportunities to capitalise on a lower carbon and more sustainable recovery. This could enable society to adapt responsibly, to return cleaner and greener, and to develop through sustainable growth with people and communities at the centre of society.
+        </p>
+        <p>Lockdown is placing pressure on the global economy. We face a serious recession. 
+          This pressure has led some world leaders to call for an easing of lockdown measures.</p>
+        </div>
+     
+       </div>
+     </div> 
+     <!-- Dashboard -->
+     
+</div> 
+
+<div class="bottom d-flex justify-content-center" >
+  <a  class="btn btn-outline-light mb-2"  [routerLink]="['/dashboard']" routerLinkActive="router-link-active"  >
+    <i class="fa fa-angle-right"></i>
+    Graphs
+  </a>  
+</div> 
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Country List</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul *ngFor="let data of countryData">
+          <li><button class="btn btn-primary">{{ data.Country }}</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="circularMenu" class="circular-menu">
+  <a class="floating-btn" (click)="ngOnInit()">
+    <i class="fa fa-refresh"></i>
+  </a>
+</div>

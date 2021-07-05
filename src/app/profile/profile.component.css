@@ -1,0 +1,26 @@
+.container .jumbotron{
+    border-radius: 10px;
+	background-color: #2a26ff;
+	background: linear-gradient(85deg,#00143ade,#000000bd);
+	box-shadow: .5px 1px rgba(47, 0, 255, 0.486);
+}
+/* Refresh */
+.circular-menu {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+  }
+  
+  .circular-menu .floating-btn {
+	display: block;
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 50%;
+	background-color: rgba(47, 0, 255, 0.486);
+	box-shadow: .5px 1px rgba(47, 0, 255, 0.486);
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	line-height: 3.9;
+	cursor: pointer;
+	outline: 0;
+  }

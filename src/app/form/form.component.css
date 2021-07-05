@@ -1,0 +1,43 @@
+.card{
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #2a26ff;
+  background: linear-gradient(85deg,#00143ade,#000000bd);
+  box-shadow: .5px 1px rgba(47, 0, 255, 0.486);
+}
+#card-form{
+    padding: 20px;
+    width: 600px;
+    height: auto;
+}
+.card-sample{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    max-height: 650px;
+   
+   
+}
+input{
+    background: transparent;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #FFFEFE;
+   
+}
+input[placeholder]{
+    color: white;
+}
+textarea{
+    height: 200px;
+    background-color: transparent;
+}
+select{
+    background-color: transparent;
+}
+@media screen and (max-height: 450px) {
+    textarea{ min-width: auto;}
+    .card {font-size: 18px;}
+  }

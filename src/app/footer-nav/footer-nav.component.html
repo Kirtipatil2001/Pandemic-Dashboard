@@ -1,0 +1,43 @@
+<!-- <div class="container">
+<div id="circularMenu1" class="circular-menu circular-menu-left">
+  <a class="floating-btn" onclick="document.getElementById('circularMenu1').classList.toggle('active');">
+    <i class="fa fa-bars"></i>
+  </a>
+  <menu class="items-wrapper">
+    <a href="#" class="menu-item fa fa-home" routerLink="" routerLinkActive=Active></a>
+    <a href="#" class="menu-item fa fa-comments" routerLink="review-component" routerLinkActive=Active ></a>
+    <a href="#" class="menu-item fa fa-user" routerLink="SignUp" routerLinkActive=Active></a>
+    <a href="" class="menu-item fa fa-sign-out-alt" (click)="logout()"></a>
+  </menu>
+</div> -->
+
+<div class="container m-1 mr-2">
+  <div id="nav" class="hover">
+  <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" (click)="closeNav()" aria-label="Close">
+    <i class="fa fa-times"></i>
+  </button>
+  <div class="content" (click)="closeNav()">
+      <a href="#" class="menu-item fa fa-home" routerLink="" routerLinkActive=Active>
+         Home</a>
+      <a href="#" class="menu-item fa fa-comments" routerLink="review-component" routerLinkActive=Active > Sentiments</a>
+      <a href="#" class="menu-item fa fa-refresh" (click)="refresh()"> Refresh</a>
+      <a href="#" class="menu-item fa fa-user" routerLink="SignUp" routerLinkActive=Active> Sign in / Profile </a>
+      <a href="" class="menu-item fa fa-sign-out-alt" (click)="logout()"> Sign out</a>
+  </div>
+  </div>
+</div>
+<div>
+    <span>
+      <a  class="m-3" >
+      <i (click)="openNav()" class="fa fa-bars" aria-hidden="true" style="width: 60px; height: 30px;" ></i></a>
+      <div class="d-flex justify-content-end text-white">
+        <h4 >Disease Analytics </h4>
+      </div>
+    </span> 
+
+  
+
+</div>
+
+
+

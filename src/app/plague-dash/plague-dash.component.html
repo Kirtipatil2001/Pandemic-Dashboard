@@ -1,0 +1,66 @@
+<div class="d-flex justify-content-start back-nav ml-3">
+  <a class=" btn btn-light btn-circle btn-sm"  [routerLink]="['/plague-component']" routerLinkActive="router-link-active">
+    <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+   </a>
+</div>
+<div class="container">
+    <div class="card mt-2" style="width: 500px; height: 300px;">
+      <div class="cont">
+        <div class="object" ng-show="graph.visible">
+          <canvas id="polarchart"></canvas>
+        </div>
+    </div>
+    </div>
+  
+    <div class="card mt-2" style="width: 500px; height: 300px;">
+      <div class="cont">
+        <div class="object" ng-show="graph.visible">
+          <canvas id="HoriChart"></canvas>
+        </div>
+    </div>
+    </div>
+  
+    <div class="card mt-2" style="width: 500px; height: 300px;">
+      <div class="cont">
+        <div class="object" ng-show="graph.visible">
+          <canvas id="detailedLineChart"></canvas>
+        </div>
+    </div>
+    </div>
+    <div class="card mt-2" style="width: 500px; height: 300px;">
+      <div class="cont">
+        <div class="object" ng-show="graph.visible">
+          <canvas id="detailedBarChart" ></canvas>
+        </div>
+    </div>
+    </div>
+    <div class="alert alert-success btn-outline-success text-center mt-3" role="alert" style="width: 100%;">
+      Table Form Data for Plague
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center text-center mt-2 " style="width: 100%;">
+    
+      <table class="table text-white">  
+        <thead>
+          <tr>
+            <th >Year</th>
+            <th >Total Cases</th>
+            <th>Total Death </th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let x of totalData">
+          <tr>
+            <td colspan="1">{{x.Years}}</td>
+            <td>{{x.TotalCases | number}}</td>
+            <td>{{x.TotalDeaths | number}}</td>
+          </tr>
+        </tbody>
+      </table>
+  
+  </div> 
+  <div id="circularMenu" class="circular-menu">
+    <a class="floating-btn" (click)="ngAfterViewInit()">
+      <i class="fa fa-refresh"></i>
+    </a>
+  </div>

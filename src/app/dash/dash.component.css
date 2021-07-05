@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.card{
+   border-radius: 10px;
+   background-color: #2a26ff;
+   background: linear-gradient(85deg,#00143ade,#000000bd);
+   box-shadow: .5px 1px rgba(47, 0, 255, 0.486);
+   /* background-color: rgba(57, 57, 57, 1);
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   transition: 0.3s; 
+  
+  }
+.object{
+  margin: 10px;
+  padding: 20px;
+}
+iframe{
+  border-radius: 10px;
+}
+
+ .btn{
+  z-index: 1;
+ }
+.text{
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+ 
+.jumbotron {
+  min-width:100%;
+  height: 620px;
+  position: relative;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+}
+h1, h5{
+  text-align: center;
+  font-weight:bolder;  
+ 
+}
+#cont{
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 500px 300px;
+  background-image: url('../../assets/animation_300_kmi1u8b4.gif');
+  width: 100%;
+    height: auto;
+}
+
+.circular-menu {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+  }
+  
+  .circular-menu .floating-btn {
+	display: block;
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 50%;
+	background-color: rgba(47, 0, 255, 0.486);
+	box-shadow: .5px 1px rgba(47, 0, 255, 0.486); 
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	line-height: 3.9;
+	cursor: pointer;
+	outline: 0;
+  }
+ 
+  @media screen and (max-width:550px) {
+    #cont{
+      width: auto;
+    }
+    .jumbotron{
+      height: 620px;
+    }
+   .display-3{
+     font-size:x-large;
+   }
+    h5{
+     font-size: small;
+   }
+  }

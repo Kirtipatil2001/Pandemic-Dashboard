@@ -1,0 +1,98 @@
+
+<div class="container m-5">
+
+
+<div class="d-flex justify-content-start ml-5 text-center text-white">
+
+
+<div class="card" id="card-form">
+  <h5 class="m-3">Add Sentiments</h5>
+  <form [formGroup]="this.form" >
+    <div class="form-group">
+      <label for="">Select the Disease</label>
+      <select class="form-control" name="" id="" formControlName="diseaseType" required>
+        <option>Covid 19</option>
+        <option>Ebola</option>
+        <option>Plague</option>
+      </select>
+      <div class="mt-2">
+      <input type="text" formControlName="diseaseType" placeholder="Other Disease" required>
+    </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="Review">Sentiments</label>
+      <textarea class="form-control" formControlName="review" placeholder="Add Sentiments Here" name="" id="Review" rows="4"></textarea>
+    </div>
+    <div>
+        <button class="btn btn-outline-light" *ngIf="form.valid" (click)="SubmitReview()">Post</button>
+    </div>
+</form> 
+</div>
+<div class=" card-sample">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">
+          <div class="chip" >
+              {{form.value.diseaseType}}
+          </div>
+      </h5>
+      <p class="card-text">{{form.value.review}}</p>
+     
+    </div>
+   </div>
+ </div> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--  -->
+
+
+
+        <!-- -->
+ 
+  
+
+
+

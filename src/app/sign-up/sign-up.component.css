@@ -1,0 +1,45 @@
+
+.container{
+    /* background-image: url("../../assets/image.png"); */
+    background-color: #2a26ff;
+ background: linear-gradient(85deg,#00143ade,#000000bd);
+ box-shadow: .5px 1px rgba(47, 0, 255, 0.486);
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    
+  }
+ .card{
+    color: white;
+    background-color: #2a26ff;
+ background: linear-gradient(85deg,#00143ade,#000000bd);
+ box-shadow: .5px 1px rgba(47, 0, 255, 0.486);
+    position: relative;
+    left: 30%;
+    top: 20%;
+    padding: 20px;
+    margin: 10px;
+    
+ }
+ .circular-menu {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+  }
+  
+  .circular-menu .floating-btn {
+	display: block;
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 50%;
+	background-color: rgba(47, 0, 255, 0.486);
+	box-shadow: .5px 1px rgba(47, 0, 255, 0.486);   
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	line-height: 3.9;
+	cursor: pointer;
+	outline: 0;
+  }

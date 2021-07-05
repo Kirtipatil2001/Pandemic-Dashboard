@@ -1,0 +1,134 @@
+<div class="d-flex justify-content-start back-nav ml-3">
+  <a class=" btn btn-light btn-circle btn-sm"  [routerLink]="['/info-component']" routerLinkActive="router-link-active">
+    <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+   </a>
+</div>
+<div class="box d-flex justify-content-center">
+  <select class="form-select" aria-label="Default select example" [(ngModel)]="selectCountry">
+    <option class="items" *ngFor="let items of countryName" >{{items.Country}}</option>
+  </select>
+  <button  type="button" class="btn btn-success btn-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="getCountryValue(selectCountry.value)"><i class="fa fa-search" aria-hidden="true"></i></button> 
+</div>
+  
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content text-white">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Country-wise Details </h5>
+        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" (click)="closeModal()" aria-label="Close">
+          <i class="fa fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+        <div class=" card mt-2" style="width: 500px; height: 300px;">
+           <div class="cont">
+             <div class="object" ng-show="graph.visible">
+             <canvas id="detailedBarChart"></canvas>
+         </div>
+         </div>
+       </div>
+       <div class=" card mt-2" style="width: 500px; height: 300px;">
+        <div class="cont">
+          <div class="object" ng-show="graph.visible">
+          <canvas id="detailedLineChart"></canvas>
+         </div>
+        </div>
+        </div>
+        <div class="card mt-2" style="width: 500px; height: 300px;">
+          <div class="cont">
+            <div class="object" ng-show="graph.visible">
+            <canvas id="HoriChart"></canvas>
+           </div>
+          </div>
+          </div>
+          <div class="card mt-2" style="width: 500px; height: 300px;">
+            <div class="cont">
+              <div class="object" ng-show="graph.visible">
+              <canvas id="lineStepped"></canvas>
+             </div>
+            </div>
+            </div>
+      </div>
+        <div class="card container mr-3 text-white" id="cards" style="width: 290px;" *ngFor="let count of ConvertedData ">
+          <div class="card-body ">
+            <h5 class="card-title">{{count.Country}}</h5>
+            <h6 class="card-text ">Date: {{count.Date | date}}</h6>
+            <p class="card-text">Confirm: {{count.Confirmed |number}}</p>
+            <p class="card-text">Death: {{count.Deaths | number}}</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<!--Main Page (charts)-->
+<div class="container">
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="mychart"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="polarchart"></canvas>
+      </div>
+  </div>
+  </div>
+
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="radarchart"></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="barchart" ></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="alert alert-success text-center m-3" role="alert" style="width: 100%;">
+    Table Form Data for Covid-19 
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center text-center mt-2 " style="width:100%;">
+  <div class="jumbotron">
+    <table class="table text-white  ">  
+      <thead>
+        <tr>
+          <th scope="col">Country Name   <i  (click)="reverse()" class="fa fa-arrow-up"></i></th>
+          <th scope="col"  >Total Confirmed Cases <i (click)="sort()" class="fa fa-arrow-down m-2"></i>
+            <i  (click)="reverse()" class="fa fa-arrow-up"></i>
+          </th>
+          <th scope="col">Total Death Cases</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let x of countryName">
+        <tr>
+          <td>{{x.Country}}</td>
+          <td>{{x.TotalConfirmed | number}}</td>
+          <td>{{x.TotalDeaths | number}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div> 
+<!-- Refresh button -->
+<div id="circularMenu" class="circular-menu">
+  <a class="floating-btn" (click)="init()">
+    
+    <i class="fa fa-refresh"></i>
+  </a>
+</div>

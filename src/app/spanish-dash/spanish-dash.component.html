@@ -1,0 +1,118 @@
+<div class="d-flex justify-content-start back-nav ml-3">
+  <a class=" btn btn-light btn-circle btn-sm"  [routerLink]="['/disease-component']" routerLinkActive="router-link-active">
+    <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+   </a>
+</div>
+<h3 class="title text-center text-white">Spanish-flu</h3>
+<div class="container text-center" >
+  <div class="container"> 
+    <div class="row text-center">
+      <div class="col-sm center" id="top" [ngStyle]="buttonSpace">
+       <h6 id="num" >Confirm Cases</h6> 
+       <h3>500 million</h3>
+      </div>
+      <div class="col-sm" style=" border-color:red; border-width: 2px; " id="top" [ngStyle]="buttonSpace">
+        <h6 id="num">Death Cases</h6> 
+        <h3>50 million</h3>
+      </div>
+    </div>
+  </div>
+  
+  <div class="jumbotron" >
+    <h5>World</h5>
+    <p>The Spanish flu pandemic of 1918, the deadliest in history, infected an estimated <b> 500 million</b> people worldwides about one-third of the planet’s population and killed an estimated <b>20 million to 50 million victims</b> , including some 675,000 Americans.
+       The 1918 flu was first observed in Europe, the United States and parts of Asia before swiftly spreading around the world. At the time, there were no effective drugs or vaccines to treat this killer flu strain. 
+       Citizens were ordered to wear masks, schools, theaters and businesses were shuttered and bodies piled up in makeshift morgues before the virus ended its deadly global march.
+    </p>
+    <p>
+       <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" id="seemore" aria-controls="collapseExample">
+        <i class="fa fa-angle-down" aria-hidden="true">See more</i>
+       </a>
+     </p>
+    
+     <div class="collapse" id="collapseExample">
+       <div class="card card-body text-center">
+        <div class="card" id="intialDisease">
+          <div class="card-title">
+            <h5>How Spanish-flu has Started?</h5>
+          </div>
+          <p>
+            Since there were no effective vaccines and drugs to treat the Spanish flu, people were ordered to put on masks. 
+            The allies of the First-World-War started calling it the Spanish flu since the epidemic began receiving more press-attention after spreading to Spain. 
+            The first wave of this pandemic occurred during the spring of 1918, and it was mild.
+          </p>
+          </div>
+         <div class="card" id="typeDisease">
+         <div class="card-title">
+           <h5>Types of Spanish-flu</h5>
+         </div>
+          <b>1.Type 1: A</b> Type A flu or influenza A viruses are capable of infecting animals, although it is more common for people to suffer the ailments associated with this type of flu. 
+
+  
+          <b>2.Type 2: B</b> Unlike type A flu viruses, type B flu is found only in humans. 
+
+          <b>3.Type 3: C </b> Influenza C viruses are also found in people. They are, however, milder than either type A or B.
+          
+         </div>
+         <div class="card" id="effectDisease">
+          <div class="card-title">
+            <h5>Effects of Spanish-flu</h5>
+          </div>
+          <p> Several Pacific island territories were particularly hard-hit. 
+            The pandemic reached them from New Zealand, which was too slow to implement measures to prevent ships carrying the flu from leaving its ports.
+             From New Zealand, the flu reached Tonga (killing 8% of the population), Nauru (16%) and Fiji (5%, 9,000 people).
+          </p>
+           <p>By the summer of 1919, the flu pandemic came to an end, as those that were infected either died or developed immunity.</p>
+          <p>Almost 90 years later, in 2008, researchers announced they’d discovered what made the 1918 flu so deadly:
+             A group of three genes enabled the virus to weaken a victim’s bronchial tubes and lungs and clear the way for bacterial pneumonia.</p>
+          <p>Since 1918, there have been several other influenza pandemics, although none as deadly. 
+            A flu pandemic from 1957 to 1958 killed around 2 million people worldwide, including some 70,000 people in the United States, and a pandemic from 1968 to 1969 killed approximately 1 million people, including some 34,000 Americans.
+          </p>
+          <p>More than 12,000 Americans perished during the H1N1 (or “swine flu”) pandemic that occurred from 2009 to 2010. 
+            The novel coronavirus pandemic of 2020 is spreading around the world as countries race to find a cure for COVID-19 and citizens shelter in place in an attempt to avoid spreading the disease, which is particularly deadly because many carriers are asymptomatic for days before realizing they are infected.</p>
+            <p>Each of these modern day pandemics brings renewed interest in and attention to the Spanish Flu, or “forgotten pandemic,” so-named because its spread was overshadowed by the deadliness of WWI and covered up by news blackouts and poor record-keeping.</p>
+          </div>
+         </div>
+       </div>
+     </div> 
+     <!-- Dashboard -->
+     <div class="alert alert-light btn-outline-light text-center mt-3" role="alert">
+      Charts for Spanish-flu
+     </div>
+</div> 
+
+<div class="container " id="containers">
+  <div class="card mt-2" id="cardss" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="Doughchart"></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" id="cardss" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="barchart"></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" id="cardss" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="polarchart"></canvas>
+      </div>
+  </div>
+  </div>
+  <div class="card mt-2" id="cardss" style="width: 500px; height: 300px;">
+    <div class="cont">
+      <div class="object" ng-show="graph.visible">
+        <canvas id="bubblechart"></canvas>
+      </div>
+  </div>
+  </div>
+</div>
+<div id="circularMenu" class="circular-menu">
+  <a class="floating-btn" (click)="ngAfterViewInit()">
+    <i class="fa fa-refresh"></i>
+  </a>
+</div>

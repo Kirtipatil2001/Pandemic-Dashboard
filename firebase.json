@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/Pandemics",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
